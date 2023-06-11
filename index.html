@@ -1,49 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
- The website is created by Mahir Orsdemir.
- link: https://sasarova.github.io/
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Website</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Management Information Systems</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
 
 <body>
   <header>
-    <h1>Mahir's Website</h1>
+    <h1>Management Information Systems</h1>
+    <img id="slider-image" src="image1.jpg" alt="Slider Image" height="250">
   </header>
+
   <main>
-    <h2>About</h2>
-    <p>Welcome to my website! I'm Mahir Orsdemir. I am a 3rd-year student of Management Information Systems at Ankara Yıldırım
-      Beyazıt University. I am looking for an internship at a place to do my compulsory internship in the
-      field of information technologies and software development in order to gain work experience and
-      improve myself. This is a sample webpage showcasing tables and various types of forms.</p>
+    <section id="history">
+      <h2>History</h2>
+      <p>Provide a concise overview of the origins and development of Management Information Systems.</p>
+      <ul>
+        <li>Key milestones, influential figures, or significant events</li>
+        <li>Examples or case studies illustrating the impact of MIS in different industries or sectors</li>
+      </ul>
+    </section>
 
-    
-    <h2>Contact Form</h2>
-    <form>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
+    <section id="today">
+      <h2>Today</h2>
+      <p>Describe the current state of Management Information Systems in modern organizations.</p>
+      <ul>
+        <li>Role and importance of MIS</li>
+        <li>Components and technologies involved in MIS implementation</li>
+        <li>Recent trends, such as cloud computing, big data analytics, or artificial intelligence in MIS</li>
+      </ul>
+    </section>
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" rows="4" required></textarea>
-
-      <div class="form-row">
-
-        <label for="gender">Gender:</label>
-        <input type="radio" id="male" name="gender" value="male">
-        <label for="male">Male</label>
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="female">Female</label>
-      </div>
-
-      <input type="submit" value="Submit">
-    </form>
+    <section id="future">
+      <h2>Future</h2>
+      <p>Explore emerging technologies or trends likely to shape the future of Management Information Systems.</p>
+      <ul>
+        <li>Potential impact on business processes, decision-making, and organizational performance</li>
+        <li>Insights or predictions on how MIS might evolve and adapt</li>
+      </ul>
+    </section>
   </main>
+
+  <footer>
+    <p>&copy; 2023 Mahir Örsdemir</p>
+  </footer>
 </body>
 
 </html>
