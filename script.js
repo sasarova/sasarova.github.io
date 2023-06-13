@@ -2,9 +2,10 @@
 
 // Array of image URLs
 const images = [
-  'https://www.hizliresim.com/k9xp7m4',
-  'https://www.hizliresim.com/q5ff3fm',
-  'image 3.png'
+  'https://tigosoftware.com/sites/default/files/2022-09/management-information-system-mis-provides-organizations-require-to-manage-themselves-efficiently-effectively-45574142.jpg',
+  'https://previews.123rf.com/images/adiruch/adiruch1608/adiruch160800547/64863884-mis-management-information-system-data-development-information-and-mis-businessman-working-at-office.jpg',
+  'https://img.freepik.com/premium-vector/mis-management-information-system-concept-with-icon-set-with-big-word-text-center_25156-1323.jpg?w=2000'
+
 ];
   
   let currentImageIndex = 0;
