@@ -2,10 +2,10 @@
 
 // Array of image URLs
 const images = [
-    'image 1.png',
-    'image 2.png',
-    'image 3.png'
-  ];
+  'https://www.hizliresim.com/k9xp7m4',
+  'https://www.hizliresim.com/q5ff3fm',
+  'image 3.png'
+];
   
   let currentImageIndex = 0;
   const imageElement = document.getElementById('slider-image');
